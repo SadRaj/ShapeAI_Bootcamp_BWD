@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #fcfcfc;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #0d0df5;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(197, 181, 181, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 150;
+}
+
+footer {
+  position: fixed;
+  margin: auto -16px;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: #0d0df5;
+}
+
+footer p {
+  color: rgb(110, 103, 103);
+  background-color: #f5f5f5;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(206, 216, 243);
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.2em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
